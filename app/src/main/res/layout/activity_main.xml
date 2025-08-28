@@ -22,5 +22,29 @@
         android:layout_height="150dp"
         android:src="@drawable/sorvete"/>
 
+    <ImageView
+        android:layout_below="@+id/imgSorvete"
+        android:id="@+id/imgMarte"
+        android:scaleType="centerCrop"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/marte"/>
+
+    <ImageView
+        android:layout_below="@+id/imgMarte"
+        android:id="@+id/imgPlutao"
+        android:scaleType="centerCrop"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/plutao"/>
+
+    <ImageView
+        android:layout_below="@+id/imgPlutao"
+        android:id="@+id/imgTerra"
+        android:scaleType="centerCrop"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/terra"/>
+
 
 </RelativeLayout>
